@@ -13,7 +13,7 @@ const store = createStore(rootReducers);
 
 // console.log("store.getState()", store.getState());
 // store.subscribe(() => console.log("store", store.getState()));
-store.dispatch(addCharacterById());
+store.dispatch(addCharacterById(2));
 
 ReactDOM.render(
   <Provider store={store}>
